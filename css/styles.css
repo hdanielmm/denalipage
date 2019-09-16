@@ -1,0 +1,125 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	background-color: #eeeeee;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: white;
+	border: 1px rgb(224, 224, 224) solid;
+	height: 70px;
+	padding: 0 20%;
+}
+.headerNav {
+	display: inline-block;
+	position: absolute;
+	right: 20%;
+}
+header li {
+	display: inline-block;
+	margin: 10px;
+}
+header li a {
+	color: grey;
+	text-decoration: none;
+}
+.home {
+	color: black;
+}
+.pageTitle {
+	font-size: 0.8rem;
+	display: inline-block;
+}
+.mainContaint {
+	width: 1000px;
+	margin: auto;
+}
+.profile {
+	border: 1px rgb(224, 224, 224) solid;
+	padding: 20px;
+	background-color: white;
+	margin-top: 25px;
+	border-radius: 5px;
+	width: 200px;
+	display: inline-block;
+}
+.imageProfile img {
+	margin: 0px 30px;
+	border-radius: 100px;
+	max-width: 135px;
+}
+.description {
+	font-weight: bold;
+}
+.feauredPosts p {
+	color: #a0a0a0;
+}
+.imageArticle {
+	height: 10px;
+}
+.socialMedia {
+	color: #a0a0a0;
+}
+.socialMedia span {
+	font-size: 1rem;
+	margin: 5px;
+}
+.socialMedia P {
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+.imageArticle img {
+	border-radius: 4px;
+	display: inline-block;
+	margin: 25px;
+	max-width: 200px;
+	object-fit: cover;
+	float: left;
+}
+.contArticles {
+	margin: 25px;
+	display: inline-block;
+	position: absolute;
+	width: 700px;
+}
+.articles {
+	border: 1px rgb(224, 224, 224) solid;
+	display: inline-block;
+	background-color: white;
+	height: 270px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+.textArticles {
+	position: relative;
+	width: 800px;
+}
+.textArticles a {
+	color: #a0a0a0;
+}
+.textArticles p {
+	line-height: 1.5rem;
+	color: #a0a0a0;
+}
+.textArticles span {
+	font-size: 0.7rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #a0a0a0;
+}
+h3 {
+	font-size: 1rem;
+}
+h4 {
+	margin: 10px 0px;
+	font-size: 1.5rem;
+}
+hr {
+	width: 100px;
+	margin: 15px 0;
+	border-style: none;
+	border-width: 1px;
+	border-color: #a0a0a0;
+	border-top-style: solid;
+}
